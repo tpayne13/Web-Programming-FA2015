@@ -1,0 +1,18 @@
+
+div#first {color: red; background-color:cyan; }
+
+.answer2 {background-color: red; width: 25%; position: absolute; height: 100%;}
+
+.underline {text-decoration: underline; }
+
+.large {font-size: 2em;}
+
+.small {font-size: .5em; }
+
+.middle {position: fixed; right: 50px; top: 50%}
+
+.menu {width: 100%; background-color: cyan;
+	text-align: center; position: fixed; top: 0%;}
+
+.answer {position: absolute; width: 50%; left: 25%; top: 50%;
+			background-color: green; text-align: center;}
