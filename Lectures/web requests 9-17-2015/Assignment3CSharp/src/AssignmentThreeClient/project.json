@@ -1,0 +1,20 @@
+{
+    "version": "1.0.0-*",
+    "description": "AssignmentThreeClient Console Application",
+    "authors": [ "Steven Yackel" ],
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": "",
+
+    "dependencies": {
+        "Newtonsoft.Json": "7.0.1"
+    },
+
+    "commands": {
+        "AssignmentThreeClient": "AssignmentThreeClient"
+    },
+
+    "frameworks": {
+        "dnx451": { }
+    }
+}
