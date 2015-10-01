@@ -1,0 +1,25 @@
+<html>
+<head>
+<script type = 'text/javascript' src="common.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+</head>
+
+<body id = 'thebody'>
+
+<form>
+Hero Name: <input type = 'text' id = 'heroName'/><br/>
+Universe: <input type = 'text' id = 'universe'/><br/>
+Starting Health: <input type = 'text' id = 'startingHealth'/><br/><br/>
+
+Index: <input type = 'text' id = 'heroIndex'/>
+
+<br/><br/>
+<input type = 'button' id = 'herosGet' value = "Get All" onclick = "heroesGetFunc()"/>
+<input type = 'button' id = 'heroesPost' value = "Create" onclick = "heroesPostFunc()"/>
+<input type = 'button' id = 'heroesPatch' value = "Edit" onclick = "heroesPatchFunc()"/>
+</form>
+
+<div id = "result"></div>
+
+</body>
+</html>
