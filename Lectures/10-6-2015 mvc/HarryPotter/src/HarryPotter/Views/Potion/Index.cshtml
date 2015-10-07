@@ -1,0 +1,21 @@
+﻿@model IngredientsModel
+
+<ul>
+@foreach (var ingredient in Model.All)
+{
+    <li>@ingredient.Name</li>
+
+}
+
+</ul>
+
+<form action="/potion/mix" method="post">
+    
+    @for (int i = 0; i < 5; i++)
+    {
+        <input type="text" name="potion(@i)" />
+    }
+
+    <input type="submit" value="Submit" />
+
+</form>
