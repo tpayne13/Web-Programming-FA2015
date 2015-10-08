@@ -1,0 +1,13 @@
+﻿@model IngredientsModel
+
+<form action="/potion/mix" method="post">
+    @for (int i = 0; i < Model.All.Count; i++)
+    {
+        <a href="/potion/ingredient/@i">@Model.All[i].Name: 
+            
+        </a><input type="checkbox" value="@Model.All[i].Name" name="ingredients"/><br/>
+
+    }
+
+    <input type="submit" value="mix"/>
+</form>
